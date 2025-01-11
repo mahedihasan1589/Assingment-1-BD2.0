@@ -284,11 +284,27 @@ main section{
   width: 1280px;
   height: 256px;
   justify-content: space-evenly;
+  margin-left: 300px;
+  border: 1px solid;
+  background-color: white;
+  border-color: white;
+  border-radius: 8px;
+  padding-left: 10px;
 
  }
  .quota-p{
   font-weight: bold;
   font-size: 16px;
+  background-color: white;
+ }
+ .quota h4{
+  background-color: white;
+ }
+ .quota h5{
+  background-color: white;
+ }
+ .mahedi{
+  background-color: white;
  }
 .recent-news{
   margin: 100px 300px;
@@ -426,4 +442,95 @@ main section{
   color: white;
   font-style: 18px;
   font-weight: bold;
+}
+.Subscribe{
+  margin-top: 50px;
+  border: 1px solid;
+  background-color: #C6E4D6;
+  width: 1280px;
+  height: 395px;
+  padding: 40px 60px;
+  border-radius: 24px;
+  border-color: #C6E4D6;
+}
+.title-2{
+  text-align: center;
+  background-color: #C6E4D6;
+  font-weight: bold;
+  font-size: 40px;
+}
+.subtitle{
+  text-align: center;
+  background-color:#C6E4D6 ;
+  font-size: 16px;
+  font-weight: bold;
+  color: #454343;
+}
+.newsletter input{
+  width: 300px;
+  padding: 17px 34px;
+  border: 1px solid;
+  margin-right: 10px;
+  outline: none;
+  border-radius: 8px;
+  background-color: -
+}
+.spam{
+  font-size: 16px;
+  color: #454343;
+  margin-top: 10px;
+  background-color:#C6E4D6;
+  text-align: center;
+}
+.input-btn{
+  padding: 18px 40px;
+  width: 40%;
+  text-align: center;
+  margin-left: 300px;
+  row-gap: 0;
+  border-radius: 8px;
+  border-color: white;
+
+}
+.btn-8{
+  padding: 18px 40px ;
+  background-color: #006A50;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  row-gap: none;
+}
+.btn-8:hover{
+  background-color: #5490F5;
+}
+.btn-2:hover{
+  background-color: #74caff;
+}
+.btn-3:hover{
+  background-color: #FFC239;
+}
+.btn-4:hover{
+  background-color: #C6E4D6;
+}
+.btn-5:hover{
+  background-color: green;
+}
+.btn-6:hover{
+  background-color: rebeccapurple;
+}
+.btn-7:hover{
+  background-color: yellow;
+}
+.card-1:hover{
+  background-color: blue;
+}
+.card-2:hover{
+  background-color: green;
+}
+.card-3:hover{
+  background-color: #74caff;
+}
+.card-4:hover{
+  background-color: red;
 }
