@@ -160,7 +160,7 @@ nav li{
 }
 .banner{
   display: flex;
-  margin: 205px 0px 300px 200px;
+  margin: 0 auto;
   justify-content: center;
   background-color: #C6E4D6;
   height: 520px;
@@ -168,8 +168,262 @@ nav li{
   align-items: center;
   padding-left: 100px;
   padding-right: 100px;
-
+  border-radius: 24px;
 }
 .banner-content{
   background-color: #C6E4D6;
+}
+.section-title{
+  font-weight: bold;
+  font-size: 40px;
+}
+.future{
+  margin: 0 auto;
+  width: 1280px;
+  height: 120px;
+  color: #0E0E0E;
+}
+.future-container{
+  display: flex;
+  gap: 24px;
+  padding: 32;
+  width: 1280px;
+  height: 325px;
+  margin: 0 auto;
+}
+/* button styles */
+.btn-3{
+  padding: 11px 20px;
+  background-color: #5490F5;
+  color: white;
+  border-radius: 8px;
+  border-color: #5490F5;
+}
+.btn-4{
+  padding: 11px 20px;
+  color: white;
+  border-radius: 8px;
+  background-color: #09A15C;
+  border-color:#09A15C;
+}
+.btn-5{
+  padding: 11px 20px;
+  color: white;
+  border-radius: 8px;
+  background-color: #FFC239;
+  border-color: #FFC239;
+}
+/* card styels */
+.future-card1{
+  background-color:#74caff;
+  padding: 32px;
+  border-radius: 16px;
+  height: 325px;
+  width: 410px;
+}
+.card1-icon{
+  background-color:#74caff;
+}
+div .future-card1 h4{
+  background-color:#74caff ;
+  font-size: 20px;
+  font-weight: bold;
+}
+div .future-card1 p {
+  background-color:#74caff ;
+  font-weight: bold;
+  font-size: 16px;
+  color: #454343;
+}
+.future-card2{
+  background-color:#C6E4D6;
+  padding: 32px;
+  border-radius: 16px;
+  height: 325px;
+  width: 410px;
+}
+div .future-card2 h4 {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #C6E4D6;
+}
+div .future-card2 p {
+  background-color: #C6E4D6;
+  font-weight: bold;
+  font-size: 16px;
+  color:#454343;
+}
+.card2-icon{
+  background-color: #C6E4D6;
+}
+.future-card3{
+  background-color:#F7EBCF;
+  padding: 32px;
+  border-radius: 16px;
+  height: 325px;
+  width: 410px;
+}
+.card3-icon{
+  background-color:#F7EBCF;
+}
+div .future-card3 h4{
+  background-color: #F7EBCF;
+  font-weight: bold;
+  font-size: 20px;
+}
+div .future-card3 p{
+  background-color: #F7EBCF;
+  font-weight: bold;
+  font-size: 16px;
+  color: #4f4d4d;
+}
+main section{
+   margin-top: 500px;
+}
+.quota{
+  width: 1280px;
+  height: 256px;
+  justify-content: space-evenly;
+
+ }
+ .quota-p{
+  font-weight: bold;
+  font-size: 16px;
+ }
+.recent-news{
+  margin: 100px 300px;
+  }
+.box1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 32px;
+  gap: 32px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 48px 48px;
+}
+.box1-title{
+  background-color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+.box1-pic2{
+  background-color: white;
+}
+.box1-right p{
+  background-color: white;
+}
+
+.box1-right{
+  background-color: white;
+  border-radius: 24px;
+}
+.box1-pic{
+  background-color: white;
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.btn-6{
+  padding: 13px 16px;
+  background-color: #006A50;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  border-color: #006A50;
+}
+.box1-left{
+  background-color: white;
+}
+.box2{
+  display: flex;
+  margin-top: 32px;
+  gap: 32px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 48px 48px;
+}
+.box2-title{
+  background-color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+.box2-pic2{
+  background-color: white;
+}
+.box2-right p{
+  background-color: white;
+}
+.box2-right{
+  background-color: white;
+  border-radius: 24px;
+}
+.box2-pic{
+  background-color: white;
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.box2-left{
+  background-color: white;
+}
+.box2-left p{
+  background-color: white;
+}
+
+
+.title{
+  text-align: center;
+}
+.donate-today{
+  margin-top: 50px;
+}
+.card{
+  text-align: center;
+}
+.card-1{
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: white;
+  border-color: white;
+}
+.card-2{
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: #C6E4D6;
+  border-color:#C6E4D6 ;
+}
+.card-3{
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: white;
+  border-color: white;
+}
+.card-4{
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: white;
+  border-color: white;
+}
+.Amount{
+  width: 100%;
+  margin-top: 32px;
+  text-align: center;
+  padding: 20px 40px;
+  background-color: white;
+  border-color: white;
+}
+.button{
+  text-align: center;
+}
+.btn-7{
+  margin-top: 32px;
+  padding: 17px 34px;
+  background-color: #006A50;
+  border-color: #006A50;
+  border-radius: 8px;
+  color: white;
+  font-style: 18px;
+  font-weight: bold;
 }
